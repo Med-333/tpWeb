@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>facteur</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+      
+    <h1>Facture</h1>
+    <p>Bienvenue chez Nous.</p>
+      
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+
+
+    <h2>Fournisseur</h2>
+
+    <form id="form">
+      <fieldset>
+        <legend>fournisseur:?</legend>
+      <select>
+        <option value="fournisseur1">fournisseur1</option>
+        <option value="fournisseur2">fournisseur2</option>
+        <option value="fournisseur3">fournisseur3</option>
+        <option value="fournisseur4">fournisseur4</option>
+      </select>
+      </fieldset>
+
+      <fieldset>
+       
+        <legend>informatoin:?</legend>
+
+         <input type="radio" name="sujet" value="Personnel" id="personnel"> Peronnel 
+         <input type="radio" name="sujet" value="Professionel" id="pro"> Professionel 
+         <br>
+        <label for="TVA" class="personnel">N TVA:</label><br>
+        <input type="text" id="TVA" name="TVA" class="personnel">
+        <br><br>
+        <label for="prenome" >Prenome:</label><br>
+        <input type="text" name="prenome" >
+        <br><br>
+        <label for="nom">Prenome:</label><br>
+        <input type="text" name="nom" >
+        <br><br>
+
+        <div class="personnel">
+          
+        <input type="radio" name="sexe" value="male" > male <br>
+        <input type="radio" name="sexe" value="female" > female <br>
+        <input type="radio" name="sexe" value="other" > other <br>
+        </div>
+        <br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="email">
+        <br><br>
+
+        <label for="phone" class="personnel">N Telephone:</label><br>
+        <input type="tel" name="phone" class="personnel">
+        <br><br>
+
+        <label for="address" class="personnel">Address:</label><br>
+        <input type="text" class="personnel" name="address">
+        <br><br>
+        
+        <label class="personnel" for="Region">Region:</label><br>
+        <input class="personnel" type="text" name="Region">
+        <br><br>
+        
+        <label class="personnel" for="ville">ville:</label><br>
+        <input class="personnel" type="text" name="vilee">
+        <br><br>
+
+        <label for="codepostale">code postale:</label><br>
+        <input type="text" name="codepostale">
+        <br><br>
+
+        <label class="personnel" for="paiment">Carte de paiement:</label><br>
+        <input type="number" name="paiment" class="personnel">
+        <br><br>
+
+        <input type="submit" name="Valide" value="Valider">
+        <input type="reset" name="Reset" value="Reset">
+
+
+      </fieldset>
+
+    </form>
+
+  
+    <script src="script.js"> </script>
+  </body>
+</html>

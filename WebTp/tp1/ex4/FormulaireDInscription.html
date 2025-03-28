@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Formulaire d'inscription</title>
+  </head>
+  <body>
+    <fieldset>
+    <form>
+      <fieldset>
+        <legend>Formulaire d'inscription</legend>
+      <table>
+        <tr>
+          <td>
+        <label for="nom">nom</label>
+          </td>
+          <td>
+        <input type="text" name="nom" value="" placeholder="saisir votre nom">
+          </td>
+        </tr>        
+
+        <tr>
+          <td>
+            <label for="prenom">prenom</label>
+          </td>
+          <td>
+            <input type="text" name="prenom" value="" placeholder="saisir votre prenom">
+          </td>
+        </tr>        
+
+        <tr>
+          <td>
+            <label for="mail">Email</label>
+          </td>
+          <td>
+            <input type="email" name="mail" value="" placeholder="saisir votre email">
+          </td>
+        </tr>        
+
+        <tr>
+          <td>
+            <label for="Sexe">Sexe</label>
+          </td>
+          <td>
+            <input type="radio" name="Sexe" value="masculin"> Masculin
+            <input type="radio" name="Sexe" value="feminin"> Feminin
+          </td>
+        </tr>        
+
+        <tr>
+          <td>
+            <label for="photo">photo</label>
+          </td>
+          <td>
+            <input type="file" name="photo" value="photo">
+          </td>
+        </tr>        
+
+        <tr>
+          <td>
+            <label for="pays">Pays</label>
+          </td>
+          <td>
+            <select name="pays">
+              <option value="France">France</option>
+              <option value="USA">USA</option>
+              <option value="UAE">UAE</option>
+              <option value="Canada">Canada</option>
+              <option value="Russia">Russia</option>
+            </select>
+          </td>
+        </tr>        
+
+        <tr>
+          <td>
+            <label for="language">Les langage preferes</label>
+          </td>
+          <td>
+              <select multiple="multiple">
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="C">C</option>
+                <option value="Cpp">C++</option>
+                <option value="C#">C#</option>
+                <option value="js">js</option>
+              </select>
+                (pour faure plusieures choix mantrnir la touch CTRL enfoncee)
+          </td>
+        </tr>        
+
+        <tr>
+          <td>
+            <label for="domaines">Domaines d'activites</label>
+          </td>
+          <td>
+              <input type="checkbox" name="domaines" value="info"> informatique
+              <input type="checkbox" name="domaines" value="gest"> Gestion
+              <input type="checkbox" name="domaines" value="pedag"> Pedagogie
+          </td>
+        </tr>        
+
+        <tr>
+          <td>
+            <input type="submit" name="sub" value="Envoyer">
+            <input type="reset" name="reset" value="Annuler">
+          </td>
+        </tr>        
+
+      </table>
+
+      </fieldset>
+    </form>
+    </fieldset>
+  </body>
+</html>

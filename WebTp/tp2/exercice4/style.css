@@ -1,0 +1,24 @@
+div{
+  width: 100%;
+  display: flex;
+  margin: 10px;
+  background-color: grey;
+  text-align: center;
+}
+.container{
+  background-color: white;
+  margin: auto;
+  width: 60%;
+  flex-direction:column;
+}
+.row{
+  background-color: white;
+  flex-direction: row;
+}
+#blockwithtree{
+  background-color: white;
+  flex-direction: column;
+}
+#bod{
+  background-color: white;
+}

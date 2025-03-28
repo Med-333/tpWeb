@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <form action="" method="post">
+      <table>
+        <tr>
+          <td>
+            <label >sexe:</label>
+          </td>
+          <td>
+            <input type="radio" name="sexe" value="male" id="maleradio"> HOMME
+            <input type="radio" name="sexe" value="female" id="femaleradio"> FEMME
+            <span id="sexespan" style="display: none;">vous devez selectionnez votre sexe</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="name">nom:</label>
+          </td>
+          <td>
+            <input type="text" onkeyup="checkname()" name="name" id="name">
+            <span id="namespan" class="hiden">Un nom ne peut pas faire moins de 2 caractires</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="prenom">prenom:</label>
+          </td>
+          <td>
+            <input type="text" name="prenom" id="prenom">
+            <span  id="prenamespan" class="hiden">Un prenom ne peut pas faire moins de 2 caractires</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="age">age:</label>
+          </td>
+          <td>
+            <input type="text" name="age" id="age">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="psedu">psedu:</label>
+          </td>
+          <td>
+            <input type="text" name="psedu" id="psedu">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="passwd">mot de passe:</label>
+          </td>
+          <td>
+            <input type="text" name="passwd" id="passwd">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="passwd2">mot de passe(confimation):</label>
+          </td>
+          <td>
+            <input type="text" name="passwd2" id="passwd2">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="pays">pays:</label>
+          </td>
+          <td>
+            <select id="pays">
+              <option value="maroc">maroc</option>
+              <option value="algerie">algerie</option>
+              <option value="tunisia">tunisie</option>
+              <option value="libia">libia</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="checkbox" name="recievemail" value="recieve" id="recieve"> Je desire recevoire la newsletter chaque mois.
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button type="button" onclick="checking()">M'inscrire</button>
+            <button type="reset">Renisialiser le formule</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  
+    <script src="script.js"> </script>
+  </body>
+</html>

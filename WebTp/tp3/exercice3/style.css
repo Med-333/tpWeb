@@ -1,0 +1,7 @@
+
+#personnel:checked ~ .personnel{
+  display: inline;
+}
+#pro:checked ~ .personnel{
+  display: none;
+}
